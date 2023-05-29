@@ -63,7 +63,9 @@ TechSpecific_Website serves as a repository for tracking version changes to our 
   - Improved SEO and META tagging
   - Ensured all pages had consistency
   - Header, Footer, Head, and sections all validated - v0.3.1 pushed
-- 
+- index, Home, Services, Contact, and About all polished in HTML regards
+- All base elements added and confirmed
+- Pushing v0.4 to GitHub and FTP to live test
 
 ### Phase 2 - Style & Improve
 
