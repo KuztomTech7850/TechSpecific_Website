@@ -41126,6 +41126,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
         /** cms-rules **/
         /*begin-responsive rules*/
+        .bold-text {
+          font-size: 1.0rem;
+          font-weight: bold;
+        }
         .u-lg h1.u-title
         {
         font-size: 4.5rem;

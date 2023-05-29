@@ -57,8 +57,13 @@ TechSpecific_Website serves as a repository for tracking version changes to our 
 - Contact Page Update
   - Rough draft with contact form inserted
   - Adding some other features and links, pushing a version before moving on
-  - 
-  
+  - In the pursuit of getting the page built, elements of the process best addressed early on were considered and reviewed
+- Went over each page - index, Home, Services, Contact, and About
+  - Revised sectioning for improved build processf (head, body, and leveled encapsulation for editing and review purposes)
+  - Improved SEO and META tagging
+  - Ensured all pages had consistency
+  - Header, Footer, Head, and sections all validated - v0.3.1 pushed
+- 
 
 ### Phase 2 - Style & Improve
 
