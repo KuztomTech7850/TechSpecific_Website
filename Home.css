@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/yyy.jpg");
+  background-image: url("assets/yyy.jpg");
   background-position: 50% 50%;
 }
 
@@ -58,7 +58,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 581px;
-  background-image: url("images/ffffff.jpg");
+  background-image: url("assets/ffffff.jpg");
   background-position: 50% 50%;
 }
 
@@ -834,7 +834,7 @@
 .u-section-5 .u-image-1 {
   width: 648px;
   min-height: 969px;
-  background-image: url("images/a7d25ea5-f10e-d3df-2733-55a779ff3988.png");
+  background-image: url("assets/a7d25ea5-f10e-d3df-2733-55a779ff3988.png");
   background-position: 50% 50%;
   margin: 60px 116px 0 auto;
 }
@@ -1287,7 +1287,7 @@
 .u-section-7 .u-image-1 {
   width: 560px;
   min-height: 615px;
-  background-image: url("images/a7d25ea5-f10e-d3df-2733-55a779ff3988.png");
+  background-image: url("assets/a7d25ea5-f10e-d3df-2733-55a779ff3988.png");
   background-position: 50% 50%;
   margin: -318px auto 0 43px;
 }

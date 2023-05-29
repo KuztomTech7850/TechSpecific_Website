@@ -17,4 +17,6 @@ TechSpecific_Website is a repository to keep track of version changes to our web
     - Recap> Lots of work, up to a working header and footer on all pages, working menu, started putting the "About" page together, did a git commit and push with VS Code Extension.
     - FAILURE IN SYNC, DELETED MULTIPLE FILES, BACKUP FAILURE CAUSING TOTAL LOSS TO ABOVE POINT IN TRACKING
 - Doing as proper git push to save
+- Header Validation
+- Footer Build
 ## Phase 2
