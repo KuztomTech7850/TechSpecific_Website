@@ -12,18 +12,18 @@ TechSpecific_Website serves as a repository for tracking version changes to our 
 
 ## Stages
 
-### Phase 1: Migrate the website to a manageable HTML file system:
+### Phase 1(v0.1-0.5): Migrate the website to a manageable HTML file system:
   - Migrate the website to an organized HTML file system to enhance website speed and flexibility.
   - Set up necessary pages: index.html, Home.html, Services.html, Contact.html, About.html.
   - Insert essential features and data, including headers, footers, forms, chatbots, maps, and basic HTML components.
 
-### Phase 2: Enhance basic functionality and usability through CSS and specific element styling:
+### Phase 2(v0.6-0.9): Enhance basic functionality and usability through CSS and specific element styling:
   - Prioritize usability and incorporate details from the previous website as quickly as possible, focusing on stability rather than extravagant features.
   - Streamline and optimize CSS code for consistency and cleanliness.
   - Validate SEO and tagging across all pages systematically.
   - Ensure cross-platform functionality by rigorously testing and validating all changes.
 
-### Phase 3: Test the website's core functions:
+### Phase 3(v1.0): Test the website's core functions:w
   - Ensure easy accessibility to booking.techspecific.com from Contact.html and relevant sections of the website.
   - Verify easy accessibility to clientsupport.techspecific.com from Services.html and relevant sections of the website.
   - Confirm full functionality of loopback from each subdomain to techspecific.com.
@@ -54,6 +54,10 @@ TechSpecific_Website serves as a repository for tracking version changes to our 
   - Details updated, story is looking good and has key points in a factual state
     - A note on the story that has been told; it is still a story to help inspire.  The real events much dirtier and less exciting and enthralling.  Although the message and intention still rings true.
   - Minor CSS changes, though I am going to leave that for the styling phase (Phase 2)
+- Contact Page Update
+  - Rough draft with contact form inserted
+  - Adding some other features and links, pushing a version before moving on
+  - 
   
 
 ### Phase 2 - Style & Improve
