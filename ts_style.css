@@ -6,7 +6,7 @@
  * Copyright 2022-2027 HarterHill Holdings, LLC
  */
 
-.fr-clearfix::after {
+ .fr-clearfix::after {
   clear: both;
   display: block;
   content: "";

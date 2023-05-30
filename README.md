@@ -66,6 +66,12 @@ TechSpecific_Website serves as a repository for tracking version changes to our 
 - index, Home, Services, Contact, and About all polished in HTML regards
 - All base elements added and confirmed
 - Pushing v0.4 to GitHub and FTP to live test
+- Reviewed live, made slight adjustments as needed
+  - Redirects, functions, typos
+- Form function was noted to be deconstructed for speed
+  - Was able to remove style, scripting still in HTML and partially loaded in Zoho.js
+  - Script added to bottom of HTML is being left, for now - will focus on form element after v1.0
+- That's it folks - pushing out (v0.5) and moving on to Phase 2!
 
 ### Phase 2 - Style & Improve
 

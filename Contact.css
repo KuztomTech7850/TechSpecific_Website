@@ -158,3 +158,77 @@
     font-size: 3.75rem;
   }
 }
+
+/* Zoho Form CSS *//* Home.css */
+
+.zsFormClass {
+  background-color: #FFFFFF;
+  width: 600px;
+}
+
+.zsFontClass {
+  color: #000000;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+#zohoSupportWebToCase textarea, 
+#zohoSupportWebToCase input[type='text'], 
+#zohoSupportWebToCase select, 
+.wb_common {
+  width: 280px;
+}
+
+#zohoSupportWebToCase td {
+  padding: 11px 5px;
+}
+
+#zohoSupportWebToCase textarea, 
+#zohoSupportWebToCase input[type='text'], 
+#zohoSupportWebToCase select {
+  border: 1px solid #ddd;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+#zohoSupportWebToCase select {
+  box-sizing: unset
+}
+
+#zohoSupportWebToCase .wb_selectDate {
+  width: auto
+}
+
+#zohoSupportWebToCase input.wb_cusInput {
+  width: 108px;
+}
+
+.wb_FtCon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.wb_logoCon {
+  display: flex;
+  margin-left: 5px;
+}
+
+.wb_logo {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+/* More styles... */
+
+.manfieldbdr {
+  border-left: 1px solid #ff6448!important
+}
+
+.hleft {
+  text-align: left;
+}
+
+/* More styles... */
