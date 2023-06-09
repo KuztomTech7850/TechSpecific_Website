@@ -72,6 +72,19 @@ TechSpecific_Website serves as a repository for tracking version changes to our 
   - Was able to remove style, scripting still in HTML and partially loaded in Zoho.js
   - Script added to bottom of HTML is being left, for now - will focus on form element after v1.0
 - That's it folks - pushing out (v0.5) and moving on to Phase 2!
+- Yeah, I have no idea what to tell you other than I am juggeling too much by myself to  make this a consistent process - the intention is all there
+- Review, some changes, and some overall wrap up under pressure as I do - it is now live and I am going to button it up using this task close out process
+- Feedback:
+  - Button color could be better
+  - Color scheming is not consistent
+  - Formating has issues to scale to mobile/tablet - an example is clientsupport email at the bottom of the home/index
+  - Blank spaces
+  - The Services/About/Contact pages are lacking in robustness
+  - More links to the booking of specific services would make the process significantly more streamlined
+  - Routing flow needs some work
+- Backup of website was created when go-live was done, old site eliminated, billing cancelled, and new site tested
+- GitHub was not pushed - pushing now
+- Pushing V1.0 - Version 1 - Master File Git
 
 ### Phase 2 - Style & Improve
 
