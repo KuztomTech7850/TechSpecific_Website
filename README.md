@@ -85,6 +85,7 @@ TechSpecific_Website serves as a repository for tracking version changes to our 
 - Backup of website was created when go-live was done, old site eliminated, billing cancelled, and new site tested
 - GitHub was not pushed - pushing now
 - Pushing V1.0 - Version 1 - Master File Git
+- Important addition of the sitemap..... noting it here
 
 ### Phase 2 - Style & Improve
 
