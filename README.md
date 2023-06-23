@@ -89,7 +89,8 @@ TechSpecific_Website serves as a repository for tracking version changes to our 
 
 ### Phase 2 - Style & Improve
 
-
+- One of the first updates is getting Google Analytics functional - seems it was overlooked.  Calling this one v1.1
+- 
 
 ### Phase 3 - Test & Deploy
 
