@@ -1,5 +1,234 @@
 /* Services.css */
-.u-section-1 .u-sheet-1 {
-  min-height: 400px;
-  margin-bottom: 0px;
+
+/* ── Page Hero ───────────────────────────────────── */
+.ts-services-hero {
+  background-color: #1a1150;
+  padding: 60px 20px 50px;
+  text-align: center;
+}
+
+.ts-services-hero h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 16px;
+}
+
+.ts-services-hero p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.82);
+  max-width: 660px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+}
+
+.ts-hero-cta {
+  display: inline-block;
+  background-color: #e8176e;
+  color: #ffffff !important;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.ts-hero-cta:hover {
+  background-color: #bf0f59;
+}
+
+/* ── Service Grid ────────────────────────────────── */
+.ts-services-body {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.ts-services-body > p.ts-intro {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #555;
+  max-width: 720px;
+  margin: 0 auto 48px;
+  text-align: center;
+  line-height: 1.75;
+}
+
+.ts-category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  margin-bottom: 56px;
+}
+
+/* ── Category Card ───────────────────────────────── */
+.ts-card {
+  border: 1.5px solid #e8e8f0;
+  border-radius: 10px;
+  padding: 28px 24px 24px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
+
+.ts-card-accent {
+  width: 36px;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 14px;
+}
+
+.ts-card h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1150;
+  margin: 0 0 10px;
+}
+
+.ts-card .ts-card-desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875rem;
+  color: #666;
+  line-height: 1.65;
+  margin: 0 0 16px;
+  flex-grow: 1;
+}
+
+.ts-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ts-card ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.84rem;
+  color: #444;
+  padding: 4px 0 4px 18px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.ts-card ul li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  color: #e8176e;
+}
+
+/* Accent colors per card */
+.ts-accent-pink    { background-color: #e8176e; }
+.ts-accent-navy    { background-color: #1a1150; }
+.ts-accent-gold    { background-color: #e8a01a; }
+.ts-accent-teal    { background-color: #0d9e9e; }
+.ts-accent-purple  { background-color: #6b38b8; }
+
+/* ── Bottom note ─────────────────────────────────── */
+.ts-services-note {
+  background-color: #f3f1fb;
+  border-left: 4px solid #1a1150;
+  border-radius: 6px;
+  padding: 24px 28px;
+  max-width: 820px;
+  margin: 0 auto 56px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.75;
+}
+
+.ts-services-note strong {
+  color: #1a1150;
+}
+
+/* ── Bottom CTA Strip ────────────────────────────── */
+.ts-services-cta-strip {
+  background-color: #1a1150;
+  padding: 48px 20px;
+  text-align: center;
+}
+
+.ts-services-cta-strip h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 12px;
+}
+
+.ts-services-cta-strip p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.78);
+  margin: 0 0 28px;
+}
+
+.ts-strip-btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ts-btn-primary {
+  display: inline-block;
+  background-color: #e8176e;
+  color: #ffffff !important;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 13px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.ts-btn-primary:hover { background-color: #bf0f59; }
+
+.ts-btn-secondary {
+  display: inline-block;
+  background-color: transparent;
+  color: #ffffff !important;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 0.88rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border-radius: 50px;
+  border: 2px solid rgba(255,255,255,0.5);
+  text-decoration: none;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.ts-btn-secondary:hover {
+  border-color: #fff;
+  background-color: rgba(255,255,255,0.08);
+}
+
+/* ── Footer override (match index) ──────────────── */
+.u-footer .u-sheet-1 {
+  min-height: 60px;
+}
+
+.u-footer .u-text-1 {
+  margin: 20px auto;
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 767px) {
+  .ts-services-hero h1  { font-size: 1.9rem; }
+  .ts-category-grid     { grid-template-columns: 1fr; }
+  .ts-services-cta-strip h2 { font-size: 1.4rem; }
 }

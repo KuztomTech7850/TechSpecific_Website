@@ -1,3 +1,16 @@
+/* Fix for Business Pitch overlap */
+#carousel_d78c {
+    padding-top: 80px !important; 
+    margin-top: 0 !important;
+    clear: both;
+}
+
+/* Ensures the CTA image above it stays contained */
+#carousel_35be .u-sheet-1 {
+    overflow: visible;
+    padding-bottom: 50px;
+}
+
 .u-section-1 {
   background-image: url("assets/yyy.jpg");
   background-position: 50% 50%;

@@ -1,5 +1,290 @@
 /* About.css */
-.u-section-1 .u-sheet-1 {
-  min-height: 400px;
-  margin-bottom: 120px;
+
+/* ── Page Hero ───────────────────────────────────── */
+.ts-about-hero {
+  background-color: #1a1150;
+  padding: 60px 24px 52px;
+  text-align: center;
+}
+
+.ts-about-hero h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 16px;
+}
+
+.ts-about-hero p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.82);
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.75;
+}
+
+/* ── Main Content ────────────────────────────────── */
+.ts-about-body {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 56px 24px 64px;
+}
+
+/* ── Intro Bio Block ─────────────────────────────── */
+.ts-bio-block {
+  margin-bottom: 52px;
+}
+
+.ts-bio-block h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1150;
+  margin: 0 0 16px;
+}
+
+.ts-bio-block p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.97rem;
+  color: #444;
+  line-height: 1.8;
+  margin: 0 0 16px;
+}
+
+/* ── Mission Callout ─────────────────────────────── */
+.ts-mission-callout {
+  background-color: #1a1150;
+  border-radius: 8px;
+  padding: 28px 30px;
+  margin: 48px 0;
+}
+
+.ts-mission-callout p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.97rem;
+  color: rgba(255,255,255,0.88);
+  line-height: 1.8;
+  margin: 0;
+}
+
+.ts-mission-callout strong {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.05rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* ── Timeline ────────────────────────────────────── */
+.ts-timeline-section {
+  margin-bottom: 52px;
+}
+
+.ts-timeline-section h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1150;
+  margin: 0 0 32px;
+}
+
+.ts-timeline {
+  position: relative;
+  padding-left: 28px;
+  border-left: 3px solid #e8e4f5;
+}
+
+.ts-timeline-item {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.ts-timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -34px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #e8176e;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #e8176e;
+}
+
+.ts-timeline-item .ts-year {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #e8176e;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.ts-timeline-item h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1150;
+  margin: 0 0 6px;
+}
+
+.ts-timeline-item p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ── Ecosystem Section ───────────────────────────── */
+.ts-ecosystem-section {
+  margin-bottom: 52px;
+}
+
+.ts-ecosystem-section h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1150;
+  margin: 0 0 10px;
+}
+
+.ts-ecosystem-section > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.75;
+  margin: 0 0 28px;
+}
+
+.ts-ecosystem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.ts-eco-card {
+  border: 1.5px solid #e8e4f5;
+  border-radius: 8px;
+  padding: 22px 20px;
+  background: #fafafa;
+}
+
+.ts-eco-card .ts-eco-accent {
+  width: 32px;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+
+.ts-eco-card h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a1150;
+  margin: 0 0 6px;
+}
+
+.ts-eco-card p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+
+.ts-eco-card a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.82rem;
+  color: #e8176e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.ts-eco-card a:hover {
+  text-decoration: underline;
+}
+
+/* ── Bottom CTA ──────────────────────────────────── */
+.ts-about-cta {
+  background-color: #f3f1fb;
+  border-radius: 8px;
+  padding: 32px 28px;
+  text-align: center;
+}
+
+.ts-about-cta h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a1150;
+  margin: 0 0 10px;
+}
+
+.ts-about-cta p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.93rem;
+  color: #555;
+  margin: 0 0 22px;
+  line-height: 1.7;
+}
+
+.ts-about-cta-btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ts-btn-primary {
+  display: inline-block;
+  background-color: #e8176e;
+  color: #ffffff !important;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 12px 26px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.ts-btn-primary:hover { background-color: #bf0f59; }
+
+.ts-btn-outline {
+  display: inline-block;
+  background-color: transparent;
+  color: #1a1150 !important;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 11px 26px;
+  border-radius: 50px;
+  border: 2px solid #1a1150;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.ts-btn-outline:hover {
+  background-color: #1a1150;
+  color: #fff !important;
+}
+
+/* ── Footer ──────────────────────────────────────── */
+.u-footer .u-sheet-1 { min-height: 60px; }
+.u-footer .u-text-1  { margin: 20px auto; }
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 767px) {
+  .ts-about-hero h1       { font-size: 1.9rem; }
+  .ts-ecosystem-grid      { grid-template-columns: 1fr; }
+  .ts-about-body          { padding: 40px 20px 52px; }
 }
